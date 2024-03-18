@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"19031c4a6d8d981e","type":"text","text":"**Movie**\n- movieID\n- title\n- genres","x":200,"y":-265,"width":160,"height":130},
+		{"id":"36d7d4f2af5da376","type":"text","text":"**User**\n- userID","x":-420,"y":-265,"width":160,"height":80},
+		{"id":"4bd980d0c1dfbb48","type":"text","text":"**Rate**\n- rating\n- timestamp","x":-120,"y":-365,"width":180,"height":100},
+		{"id":"5ad788e43fa24ad3","type":"text","text":"**Genome tag score 1**\n- Real","x":20,"y":100,"width":237,"height":94},
+		{"id":"af6d17b04a1b5ef8","x":500,"y":100,"width":257,"height":82,"type":"text","text":"**Genome tag score 2**\n- Real"}
+	],
+	"edges":[
+		{"id":"5c2865e5389d1836","fromNode":"36d7d4f2af5da376","fromSide":"right","toNode":"4bd980d0c1dfbb48","toSide":"left"},
+		{"id":"878fc1308ab2edd3","fromNode":"4bd980d0c1dfbb48","fromSide":"right","toNode":"19031c4a6d8d981e","toSide":"top"},
+		{"id":"db949d6edee9b4f0","fromNode":"19031c4a6d8d981e","fromSide":"right","toNode":"5ad788e43fa24ad3","toSide":"right","label":"has"},
+		{"id":"1f6f7737f619d979","fromNode":"19031c4a6d8d981e","fromSide":"right","toNode":"af6d17b04a1b5ef8","toSide":"top","label":"has"}
+	]
+}
